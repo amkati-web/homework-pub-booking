@@ -1,0 +1,7 @@
+version: "3.1"
+nlu:
+- intent: confirm_booking
+  examples: |
+    - /confirm_booking
+    - confirm_booking
+    - confirm booking

@@ -1,0 +1,29 @@
+Session sess_ea12cb69a337
+  dir: C:\Users\EKATER~1\AppData\Local\Temp\tmpqkv9gcm3\sessions\sess_ea12cb69a337
+  LLM: FakeLLMClient (offline, scripted)
+
+Loop half outcome: complete
+  summary: loop half completed 2 subgoal(s); final answer: Booking researched; flyer at workspace/flyer.html.
+
+Tickets:
+  tk_1bfafbed  planner.plan                                        success
+  tk_29c9730d  executor.run_subgoal/sg_2                           success
+  tk_b9d52ad8  executor.run_subgoal/sg_1                           success
+
+=== flyer.html (2091 bytes) ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edinburgh Pub Booking</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; background: #f9f9f9; }
+    article { background: white; border-radius: 8px; padding: 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1 { color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 12px; }
+   ...
+[truncated]
+
+=== Dataflow integrity check ===
+✓  dataflow OK: verified 4 fact(s) against tool outputs
+   Verified 4 fact(s) against tool outputs.

@@ -32,11 +32,14 @@ flows:
   #     agent-bridge pattern spans process boundaries — it isn't a
   #     dialog concern.
   # ─────────────────────────────────────────────────────────────────
+
   confirm_booking:
     description: >
       Confirm a pub booking after validating party size and deposit.
       Triggers when the user sends the programmatic command
       /confirm_booking with booking metadata.
+    nlu_triggers:
+      - intent: confirm_booking
     steps:
       - id: validate
         action: action_validate_booking

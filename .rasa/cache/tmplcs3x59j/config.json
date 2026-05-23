@@ -1,0 +1,33 @@
+{
+  "prompt_template": null,
+  "user_input": {
+    "max_characters": 2000
+  },
+  "llm": {
+    "id": "nebius_llm",
+    "models": [
+      {
+        "type": "openai",
+        "model": "Qwen/Qwen3-32B",
+        "api_base": "https://api.tokenfactory.nebius.com/v1/",
+        "api_key": "${NEBIUS_KEY}"
+      }
+    ]
+  },
+  "flow_retrieval": {
+    "embeddings": {
+      "id": "nebius_embeddings",
+      "models": [
+        {
+          "type": "openai",
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "api_base": "https://api.studio.nebius.com/v1/",
+          "api_key": "${NEBIUS_KEY}"
+        }
+      ]
+    },
+    "num_flows": 20,
+    "turns_to_embed": 1,
+    "should_embed_slots": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "embeddings": {
+    "id": "nebius_embeddings",
+    "models": [
+      {
+        "type": "openai",
+        "model": "Qwen/Qwen3-Embedding-8B",
+        "api_base": "https://api.studio.nebius.com/v1/",
+        "api_key": "${NEBIUS_KEY}"
+      }
+    ]
+  },
+  "num_flows": 20,
+  "turns_to_embed": 1,
+  "should_embed_slots": true
+}

@@ -3,6 +3,8 @@
 # command generator; intent recognition is optional).
 
 version: "3.1"
+intents:
+  - confirm_booking
 
 slots:
   venue_id:

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edinburgh Pub Booking</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; background: #f9f9f9; }
+    article { background: white; border-radius: 8px; padding: 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1 { color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 12px; }
+    dl { display: grid; grid-template-columns: 160px 1fr; gap: 8px 16px; }
+    dt { font-weight: bold; color: #777; }
+    dd { margin: 0; color: #2c3e50; }
+    .section { background: #fef9e7; border-left: 4px solid #e67e22; padding: 12px 16px; margin-top: 16px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>Edinburgh Pub Night</h1>
+    <dl>
+      <dt>Venue</dt><dd data-testid="venue-name">Haymarket Tap</dd>
+      <dt>Address</dt><dd data-testid="venue-address">12 Dalry Rd, Edinburgh EH11 2BG</dd>
+      <dt>Date</dt><dd data-testid="date">2026-04-25</dd>
+      <dt>Time</dt><dd data-testid="time">19:30</dd>
+      <dt>Party size</dt><dd data-testid="party-size">6</dd>
+    </dl>
+    <div class="section">
+      <dl>
+        <dt>Weather</dt><dd data-testid="weather-condition">cloudy</dd>
+        <dt>Temperature</dt><dd data-testid="temperature">12C</dd>
+      </dl>
+    </div>
+    <div class="section">
+      <dl>
+        <dt>Total cost</dt><dd data-testid="total-cost">540</dd>
+        <dt>Deposit</dt><dd data-testid="deposit">0</dd>
+      </dl>
+    </div>
+  </article>
+</body>
+</html>
